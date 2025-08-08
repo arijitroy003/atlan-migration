@@ -205,6 +205,7 @@ def main():
     
     atlan_group_update = migration_client.batch_add_users_to_atlan_group("data_users", "atlan_users")
 
+    
     rover_group_update = migration_client.add_users_to_rover_group("dataverse-atlan-users", "atlan_users")
 
     if atlan_group_update and rover_group_update:
