@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+.env
+*.json
+
+# Test binaries
+*_test
+
+# Go module cache
+# This is where Go stores downloaded modules and build artifacts.
+# It's generally safe to ignore this as it can be regenerated.
+.cache/
+go.mod.sum # Old sum file, generally not needed with go.sum
+
+# Dependency directories (Go modules)
+# This ignores the 'vendor' directory if you are still using it for vendored dependencies.
+# If using Go modules (default since Go 1.11), this is less common.
+vendor/
+
+# Log files
+*.log
+
+# Editor/IDE specific files
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Generated files
+# This can include output from tools like protobuf compilers or template engines.
+# Adjust based on your project's specific needs.
+dist/
+build/
